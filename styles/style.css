@@ -108,7 +108,7 @@ body {
 }
 
 
-/* qucick list features */
+/* qucick list features section*/
 
 .quick-list-container {
     width: 70%;
@@ -142,7 +142,7 @@ body {
     line-height: normal;
 }
 
-#features {
+#features-text {
     color: #FF900E;
     font-size: 2rem;
     font-weight: 700;
@@ -163,6 +163,118 @@ body {
     font-weight: 400;
     line-height: 1.5rem;
     margin-bottom: 32px;
+}
+
+/* features section */
+
+.features {
+    height: 1000px;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-img {
+    position: relative;
+}
+
+.features-lists {
+    width: 540px;
+    display: grid;
+    grid-template-rows: repeat(1, 1ft);
+    margin-bottom: 50px;
+}
+
+.features-list-title h2 {
+    color: #131313;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.features-list-title p {
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.features .features-lists .features-list-items {
+    width: 540px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+
+.features .features-lists .features-list-items h3 {
+    color: var(--Dark-01, #131313);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px 0 10px 33px;
+}
+
+.features .features-lists .features-list-items p {
+    color: #727272;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin: 20px 30px;
+}
+
+.features-img img {
+    width: 600px;
+    height: auto;
+}
+
+.experience-banner {
+    width: 260px;
+    height: 150px;
+    border-radius: 8px;
+    background: #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#exp-year {
+    color: #FFF;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#exp-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.experience-banner {
+    position: absolute;
+    top: 755px;
+    left: -80px;
+}
+
+#experience-banner-inner-text-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#experience-banner-inner-text-2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 10px;
 }
 
 /* responsive media queries */
@@ -194,7 +306,7 @@ body {
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-evenly;
     }
-    
+
     .quick-list-text-container {
         margin-top: 100px;
         align-items: center;
@@ -228,7 +340,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
-    
+
     .quick-list-text-container {
         margin-left: 0;
         margin-top: 100px;
