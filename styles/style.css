@@ -366,7 +366,21 @@
 .sponsors-banner {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 130px;
+}
+
+.footer {
+    width: 75%;
+    height: 100px;
+    margin: 100px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer p {
+    padding: 39px 410px;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* responsive media queries */
